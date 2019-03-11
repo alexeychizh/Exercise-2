@@ -11,7 +11,7 @@ from matplotlib import cm
 import matplotlib.pyplot as plt
 from matplotlib.ticker import MaxNLocator
 
-filepath = 'H2Ooutfiles' # Please feel free to change this
+filepath = 'H2Ooutfiles' # Please feel free to change this to change between H2O and H2S
 H2Xfiles = os.listdir(filepath)
 XYZ = []
 eq_geometry = zeros(3)
